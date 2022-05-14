@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Blank from './components/Blank';
+import HomeBot from './components/HomeBot';
+import HomeScreneOne from './components/HomeScreneOne';
+import HomeScreneTwo from './components/HomeScreneTwo';
+import LayerOne from './components/LayerOne';
+import LayerTwo from './components/LayerTwo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HomeBot />
+      <HomeScreneOne />
+      <HomeScreneTwo /> */}
+      <LayerOne />
+      <LayerTwo />
+
+      {/* <BackgroundPage /> */}
     </div>
   );
 }
